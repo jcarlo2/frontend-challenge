@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    background: #D3DFEEFF;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+}
+.attribution a {
+    color: hsl(223, 75%, 48%);
+}
+
+.code {
+    display: grid;
+    background: hsl(0, 0%, 100%);
+    width: 20%;
+    height: 65%;
+    border-radius: 20px;
+}
+
+.code img {
+    width: 90%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+.code .p1 {
+    background: transparent;
+    text-align: center;
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 0;
+}
+
+.code .p2 {
+    background: transparent;
+    text-align: center;
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #C6CAD3FF;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .attribution {
+        font-size: 16px;
+    }
+
+    .code {
+        display: grid;
+        background: hsl(0, 0%, 100%);
+        width: 30%;
+        height: 65%;
+        border-radius: 20px;
+    }
+
+    .code img {
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .attribution {
+        font-size: 12px;
+    }
+
+    .code {
+        display: grid;
+        background: hsl(0, 0%, 100%);
+        width: 50%;
+        height: 65%;
+        border-radius: 20px;
+    }
+
+    .code img {
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .attribution {
+        font-size: 12px;
+    }
+
+    .code {
+        display: grid;
+        background: hsl(0, 0%, 100%);
+        width: 90%;
+        height: 65%;
+        border-radius: 20px;
+    }
+
+    .code img {
+        height: 90%;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .attribution {
+        font-size: 10px;
+    }
+
+    .code {
+        display: grid;
+        background: hsl(0, 0%, 100%);
+        width: 90%;
+        height: 65%;
+        border-radius: 20px;
+    }
+}
